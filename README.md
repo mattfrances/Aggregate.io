@@ -15,6 +15,13 @@ API - https://plaid.com/
     PLAID_COUNTRY_CODES = 'US,CA,GB,FR,ES' </br>
 6. Run `npm start` and `python server.py` and go to `localhost:3000`
 
+### App screenshots ###
+<img src="readmeImages/step1.png" width=75%/>
+<img src="readmeImages/step2.png" width=75%/>
+<img src="readmeImages/step3.png" width=75%/>
+<img src="readmeImages/step4.png" width=75%/>
+<img src="readmeImages/step5.png" width=75%/>
+
 ### What I learned ###
 - Using the Plaid API to access a user's transactions
 - Sending requests to a Flask backend from a React frontend
