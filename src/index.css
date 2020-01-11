@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #3A405A;
+  padding: 1% 0;
+  font-size: 1.2em;
+  min-height: 60px;
+}
+
+.navbar-brand {
+  color: #D5D5D5;
+  font-size: 1.5em;
+}
+
+.navbar-nav li a {
+  color: #D5D5D5;
+}
+
+.navbar-nav li a:hover {
+  color: white;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #D5D5D5;
+}
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(213,213,213)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#home {
+  background:  url("images/mountains.jpg") no-repeat center center fixed;
+  display: table;
+  height: calc(100vh - 60px);
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  /* flex-grow: 1; */
+  /* overflow: auto; */
+}
+
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.landing-text h1 {
+  font-size: 300%;
+  font-weight: 800;
+  color: #D5D5D5;
+}
+
+.landing-text h3 {
+  font-size: 250%;
+  font-weight: 800;
+  color: #D5D5D5;
+}
+
