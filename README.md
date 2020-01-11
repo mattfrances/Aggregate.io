@@ -6,13 +6,13 @@ API - https://plaid.com/
 2. `pip install requirements.txt`
 3. `npm install`
 4. Create an account with Plaid and get an API key - https://dashboard.plaid.com/signin
-5. Create a `config.py` file in the root directory with the following:
-    `PLAID_CLIENT_ID = YOUR_CLIENT_ID
-     PLAID_SECRET = YOUR_SECRET_KEY
-     PLAID_PUBLIC_KEY = YOUR_PUBLIC_KEY
-     PLAID_ENV = 'sandbox' 
-     PLAID_PRODUCTS = 'transactions' 
-     PLAID_COUNTRY_CODES = 'US,CA,GB,FR,ES'`
+5. Create a `config.py` file in the root directory with the following:</br>
+    PLAID_CLIENT_ID = YOUR_CLIENT_ID </br>
+    PLAID_SECRET = YOUR_SECRET_KEY </br>
+    PLAID_PUBLIC_KEY = YOUR_PUBLIC_KEY </br>
+    PLAID_ENV = 'sandbox' </br>
+    PLAID_PRODUCTS = 'transactions' </br>
+    PLAID_COUNTRY_CODES = 'US,CA,GB,FR,ES' </br>
 6. Run `npm start` and `python server.py` and go to `localhost:3000`
 
 ### What I learned ###
